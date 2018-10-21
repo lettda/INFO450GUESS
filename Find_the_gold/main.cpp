@@ -173,7 +173,7 @@ int gameLogic(char grid[COLS][ROWS]) {
             cin >> gameCol;
         }
         
-        gameCol--; // Subtract 1 so it matches array display ... since arrays start at 0, user would have had to guess coordinate (0,0) when they were trying to find gold at (1,1) so we fix this here.
+        gameCol--; // Subtract 1 so it matches array display
         cout << endl;
         
         if (grid[gameCol][gameRow] == 'G') {
